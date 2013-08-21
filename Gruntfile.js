@@ -115,12 +115,14 @@ module.exports = function (grunt) {
                 importPath: '<%= yeoman.app %>/bower_components',
                 httpImagesPath: '/images',
                 httpGeneratedImagesPath: '/images/generated',
-                relativeAssets: false
+                relativeAssets: false,
+                outputStyle: 'compressed',
+                debugInfo: false
             },
             dist: {},
             server: {
                 options: {
-                    debugInfo: true
+                    debugInfo: false
                 }
             }
         },
@@ -248,7 +250,6 @@ module.exports = function (grunt) {
                         dest: '<%= yeoman.dist %>/<%= yeoman.name %>.css'
                     },
                 ]
-                
             }
         },
         concurrent: {
