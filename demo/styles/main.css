@@ -1,0 +1,157 @@
+/* col sizing and count, vars set in vars.scss - outputs .col1 etc */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000313}}
+.col1 {
+  width: 10%;
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000313}}
+.col2 {
+  width: 20%;
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000313}}
+.col3 {
+  width: 30%;
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000313}}
+.col4 {
+  width: 40%;
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000313}}
+.col5 {
+  width: 50%;
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000313}}
+.col6 {
+  width: 60%;
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000313}}
+.col7 {
+  width: 70%;
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000313}}
+.col8 {
+  width: 80%;
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000313}}
+.col9 {
+  width: 90%;
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000313}}
+.col10 {
+  width: 100%;
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000315}}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000316}}
+p, ul, ol, dl, h1, h2, h3, h4, article {
+  margin: 1em 0 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000318}}
+p:first-child, ul:first-child, ol:first-child, dl:first-child, h1:first-child, h2:first-child, h3:first-child, h4:first-child, article:first-child {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000320}}
+#outline {
+  font-size: 1.4em;
+  line-height: 1.4;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000322}}
+.row:after, .group:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000324}}
+a {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000326}}
+a:hover {
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000328}}
+.box {
+  background: #eee;
+  min-height: 100px;
+  padding: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000329}}
+.container {
+  max-width: 768px;
+  *width: 768px;
+  margin: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000330}}
+.gutter {
+  padding: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000331}}
+.description {
+  padding-bottom: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000335}}
+nav.hoz ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000336}}
+nav.hoz ul:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000338}}
+nav.hoz li {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000339}}
+nav.hoz a {
+  display: block;
+  padding: 14px 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000341}}
+header nav {
+  background: #000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Git\/Slider\/demo\/styles\/main\.scss}line{font-family:\0000343}}
+header nav a {
+  color: #fff;
+}

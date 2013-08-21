@@ -1,1 +1,4 @@
-.sass-cache/
+node_modules
+*.log
+demo/bower_components
+.sass-cache

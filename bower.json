@@ -1,0 +1,8 @@
+{
+	"name": "slider",
+	"version": "0.0.0",
+	"dependencies": {
+		"bootstrap.css": "*",
+		"jquery": "~1.10"
+	}
+}
